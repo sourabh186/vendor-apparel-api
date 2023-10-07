@@ -1,0 +1,30 @@
+{
+    "apparel": [
+        {
+            "code": "A001",
+            "sizes": {
+                "S": {
+                    "quantity": 20,
+                    "price": 399
+                },
+                "M": {
+                    "quantity": 20,
+                    "price": 399
+                }
+            }
+        },
+        {
+            "code": "A002",
+            "sizes": {
+                "S": {
+                    "quantity": 5,
+                    "price": 15
+                },
+                "L": {
+                    "quantity": 8,
+                    "price": 30
+                }
+            }
+        }
+    ]
+}
