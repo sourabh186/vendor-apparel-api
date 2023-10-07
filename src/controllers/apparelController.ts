@@ -6,7 +6,7 @@ import fs from 'fs';
 const router = express.Router();
 
 // Load data from JSON file
-const dataPath = 'data/apparel.json';
+const dataPath = 'src/data/apparel.json';
 let apparelData: Apparel[] = [];
 
 try {

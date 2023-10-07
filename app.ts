@@ -1,9 +1,9 @@
 // src/app.ts
 import express from 'express';
 import bodyParser from 'body-parser';
-import apparelController from './controllers/apparelController';
+import apparelController from './src/controllers/apparelController';
 
-import { setupSwagger } from './swagger';
+import { setupSwagger } from './src/swagger';
 
 const app = express();
 const port = 3000;

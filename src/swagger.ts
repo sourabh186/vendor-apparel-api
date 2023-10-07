@@ -35,7 +35,7 @@ const options = {
             },
         ],
     },
-    apis: ['controllers/*.ts'], // Point to your controller files
+    apis: ['src/controllers/*.ts'], // Point to your controller files
 };
 
 const specs = swaggerJsdoc(options);

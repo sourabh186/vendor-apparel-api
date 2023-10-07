@@ -8,7 +8,7 @@ const express_1 = __importDefault(require("express"));
 const fs_1 = __importDefault(require("fs"));
 const router = express_1.default.Router();
 // Load data from JSON file
-const dataPath = 'data/apparel.json';
+const dataPath = 'src/data/apparel.json';
 let apparelData = [];
 try {
     const rawData = fs_1.default.readFileSync(dataPath, 'utf-8');
